@@ -1,0 +1,339 @@
+[
+    {
+        "domain": "liga.net",
+        "DNS_A": [
+            {
+                "host": "liga.net",
+                "class": "IN",
+                "ttl": 161,
+                "type": "A",
+                "ip": "104.18.6.71"
+            },
+            {
+                "host": "liga.net",
+                "class": "IN",
+                "ttl": 161,
+                "type": "A",
+                "ip": "104.18.7.71"
+            }
+        ],
+        "DNS_NS": [
+            {
+                "host": "liga.net",
+                "class": "IN",
+                "ttl": 7152,
+                "type": "NS",
+                "target": "abby.ns.cloudflare.com"
+            },
+            {
+                "host": "liga.net",
+                "class": "IN",
+                "ttl": 7152,
+                "type": "NS",
+                "target": "archer.ns.cloudflare.com"
+            }
+        ],
+        "DNS_MX": [
+            {
+                "host": "liga.net",
+                "class": "IN",
+                "ttl": 252,
+                "type": "MX",
+                "pri": 20,
+                "target": "mail-02.ligazakon.net"
+            },
+            {
+                "host": "liga.net",
+                "class": "IN",
+                "ttl": 252,
+                "type": "MX",
+                "pri": 10,
+                "target": "mail-01.ligazakon.net"
+            }
+        ],
+        "DNS_MX_A": {
+            "mail-02.ligazakon.net": [
+                {
+                    "host": "mail-02.ligazakon.net",
+                    "class": "IN",
+                    "ttl": 75,
+                    "type": "A",
+                    "ip": "45.140.124.226"
+                }
+            ],
+            "mail-01.ligazakon.net": [
+                {
+                    "host": "mail-01.ligazakon.net",
+                    "class": "IN",
+                    "ttl": 75,
+                    "type": "A",
+                    "ip": "45.140.124.229"
+                }
+            ]
+        }
+    },
+    {
+        "domain": "unian.ua",
+        "DNS_A": [
+            {
+                "host": "unian.ua",
+                "class": "IN",
+                "ttl": 232,
+                "type": "A",
+                "ip": "104.18.31.169"
+            },
+            {
+                "host": "unian.ua",
+                "class": "IN",
+                "ttl": 232,
+                "type": "A",
+                "ip": "104.18.30.169"
+            }
+        ],
+        "DNS_NS": [
+            {
+                "host": "unian.ua",
+                "class": "IN",
+                "ttl": 7152,
+                "type": "NS",
+                "target": "ryan.ns.cloudflare.com"
+            },
+            {
+                "host": "unian.ua",
+                "class": "IN",
+                "ttl": 7152,
+                "type": "NS",
+                "target": "noor.ns.cloudflare.com"
+            }
+        ],
+        "DNS_MX": [
+            {
+                "host": "unian.ua",
+                "class": "IN",
+                "ttl": 3552,
+                "type": "MX",
+                "pri": 20,
+                "target": "mx2.1plus1.net"
+            },
+            {
+                "host": "unian.ua",
+                "class": "IN",
+                "ttl": 3552,
+                "type": "MX",
+                "pri": 10,
+                "target": "fiat.1plus1.net"
+            },
+            {
+                "host": "unian.ua",
+                "class": "IN",
+                "ttl": 3552,
+                "type": "MX",
+                "pri": 30,
+                "target": "mx3.1plus1.net"
+            }
+        ],
+        "DNS_MX_A": {
+            "mx2.1plus1.net": [
+                {
+                    "host": "mx2.1plus1.net",
+                    "class": "IN",
+                    "ttl": 223,
+                    "type": "A",
+                    "ip": "91.213.149.14"
+                }
+            ],
+            "fiat.1plus1.net": [
+                {
+                    "host": "fiat.1plus1.net",
+                    "class": "IN",
+                    "ttl": 225,
+                    "type": "A",
+                    "ip": "91.213.149.3"
+                }
+            ],
+            "mx3.1plus1.net": [
+                {
+                    "host": "mx3.1plus1.net",
+                    "class": "IN",
+                    "ttl": 224,
+                    "type": "A",
+                    "ip": "91.213.149.19"
+                }
+            ]
+        }
+    },
+    {
+        "domain": "ukr.net",
+        "DNS_A": [
+            {
+                "host": "ukr.net",
+                "class": "IN",
+                "ttl": 251,
+                "type": "A",
+                "ip": "104.18.9.128"
+            },
+            {
+                "host": "ukr.net",
+                "class": "IN",
+                "ttl": 251,
+                "type": "A",
+                "ip": "104.18.8.128"
+            }
+        ],
+        "DNS_NS": [
+            {
+                "host": "ukr.net",
+                "class": "IN",
+                "ttl": 7152,
+                "type": "NS",
+                "target": "ns1.fwdcdn.net"
+            },
+            {
+                "host": "ukr.net",
+                "class": "IN",
+                "ttl": 7152,
+                "type": "NS",
+                "target": "ns2.fwdcdn.net"
+            }
+        ],
+        "DNS_MX": [
+            {
+                "host": "ukr.net",
+                "class": "IN",
+                "ttl": 7,
+                "type": "MX",
+                "pri": 10,
+                "target": "mxs.ukr.net"
+            }
+        ],
+        "DNS_MX_A": {
+            "mxs.ukr.net": [
+                {
+                    "host": "mxs.ukr.net",
+                    "class": "IN",
+                    "ttl": 378,
+                    "type": "A",
+                    "ip": "212.42.75.251"
+                }
+            ]
+        }
+    },
+    {
+        "domain": "olx.ua",
+        "DNS_A": [
+            {
+                "host": "olx.ua",
+                "class": "IN",
+                "ttl": 21,
+                "type": "A",
+                "ip": "54.192.231.60"
+            },
+            {
+                "host": "olx.ua",
+                "class": "IN",
+                "ttl": 21,
+                "type": "A",
+                "ip": "54.192.231.100"
+            },
+            {
+                "host": "olx.ua",
+                "class": "IN",
+                "ttl": 21,
+                "type": "A",
+                "ip": "54.192.231.65"
+            },
+            {
+                "host": "olx.ua",
+                "class": "IN",
+                "ttl": 21,
+                "type": "A",
+                "ip": "54.192.231.90"
+            }
+        ],
+        "DNS_NS": [
+            {
+                "host": "olx.ua",
+                "class": "IN",
+                "ttl": 179,
+                "type": "NS",
+                "target": "ns3.olx.ua"
+            },
+            {
+                "host": "olx.ua",
+                "class": "IN",
+                "ttl": 179,
+                "type": "NS",
+                "target": "ns4.olx.ua"
+            },
+            {
+                "host": "olx.ua",
+                "class": "IN",
+                "ttl": 179,
+                "type": "NS",
+                "target": "ns2.olx.ua"
+            },
+            {
+                "host": "olx.ua",
+                "class": "IN",
+                "ttl": 179,
+                "type": "NS",
+                "target": "ns1.olx.ua"
+            }
+        ],
+        "DNS_MX": [
+            {
+                "host": "olx.ua",
+                "class": "IN",
+                "ttl": 1752,
+                "type": "MX",
+                "pri": 20,
+                "target": "alt1.aspmx.l.google.com"
+            },
+            {
+                "host": "olx.ua",
+                "class": "IN",
+                "ttl": 1752,
+                "type": "MX",
+                "pri": 30,
+                "target": "aspmx2.googlemail.com"
+            },
+            {
+                "host": "olx.ua",
+                "class": "IN",
+                "ttl": 1752,
+                "type": "MX",
+                "pri": 10,
+                "target": "aspmx.l.google.com"
+            }
+        ],
+        "DNS_MX_A": {
+            "alt1.aspmx.l.google.com": [
+                {
+                    "host": "alt1.aspmx.l.google.com",
+                    "class": "IN",
+                    "ttl": 45,
+                    "type": "A",
+                    "ip": "74.125.200.27"
+                }
+            ],
+            "aspmx2.googlemail.com": [
+                {
+                    "host": "aspmx2.googlemail.com",
+                    "class": "IN",
+                    "ttl": 170,
+                    "type": "A",
+                    "ip": "74.125.200.26"
+                }
+            ],
+            "aspmx.l.google.com": [
+                {
+                    "host": "aspmx.l.google.com",
+                    "class": "IN",
+                    "ttl": 33,
+                    "type": "A",
+                    "ip": "142.251.9.26"
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,82 @@
+digraph G {
+	"liga.net" [shape=box, style=filled, fillcolor=gold]
+	"unian.ua" [shape=box, style=filled, fillcolor=gold]
+	"ukr.net" [shape=box, style=filled, fillcolor=gold]
+	"olx.ua" [shape=box, style=filled, fillcolor=gold]
+	"104.18.6.71" [shape=box, style=filled, fillcolor=green]
+	"liga.net" -> "104.18.6.71"
+	"104.18.7.71" [shape=box, style=filled, fillcolor=green]
+	"liga.net" -> "104.18.7.71"
+	"abby.ns.cloudflare.com" [shape=box, style=filled, fillcolor=cyan]
+	"liga.net" -> "abby.ns.cloudflare.com"
+	"archer.ns.cloudflare.com" [shape=box, style=filled, fillcolor=cyan]
+	"liga.net" -> "archer.ns.cloudflare.com"
+	"mail-02.ligazakon.net" [shape=box, style=filled, fillcolor=plum1]
+	"liga.net" -> "mail-02.ligazakon.net"
+	"mail-01.ligazakon.net" [shape=box, style=filled, fillcolor=plum1]
+	"liga.net" -> "mail-01.ligazakon.net"
+	"45.140.124.226" [shape=box, style=filled, fillcolor=plum]
+	"liga.net" -> "45.140.124.226"
+	"45.140.124.229" [shape=box, style=filled, fillcolor=plum]
+	"liga.net" -> "45.140.124.229"
+	"104.18.31.169" [shape=box, style=filled, fillcolor=green]
+	"unian.ua" -> "104.18.31.169"
+	"104.18.30.169" [shape=box, style=filled, fillcolor=green]
+	"unian.ua" -> "104.18.30.169"
+	"ryan.ns.cloudflare.com" [shape=box, style=filled, fillcolor=cyan]
+	"unian.ua" -> "ryan.ns.cloudflare.com"
+	"noor.ns.cloudflare.com" [shape=box, style=filled, fillcolor=cyan]
+	"unian.ua" -> "noor.ns.cloudflare.com"
+	"mx2.1plus1.net" [shape=box, style=filled, fillcolor=plum1]
+	"unian.ua" -> "mx2.1plus1.net"
+	"fiat.1plus1.net" [shape=box, style=filled, fillcolor=plum1]
+	"unian.ua" -> "fiat.1plus1.net"
+	"mx3.1plus1.net" [shape=box, style=filled, fillcolor=plum1]
+	"unian.ua" -> "mx3.1plus1.net"
+	"91.213.149.14" [shape=box, style=filled, fillcolor=plum]
+	"unian.ua" -> "91.213.149.14"
+	"91.213.149.3" [shape=box, style=filled, fillcolor=plum]
+	"unian.ua" -> "91.213.149.3"
+	"91.213.149.19" [shape=box, style=filled, fillcolor=plum]
+	"unian.ua" -> "91.213.149.19"
+	"104.18.9.128" [shape=box, style=filled, fillcolor=green]
+	"ukr.net" -> "104.18.9.128"
+	"104.18.8.128" [shape=box, style=filled, fillcolor=green]
+	"ukr.net" -> "104.18.8.128"
+	"ns1.fwdcdn.net" [shape=box, style=filled, fillcolor=cyan]
+	"ukr.net" -> "ns1.fwdcdn.net"
+	"ns2.fwdcdn.net" [shape=box, style=filled, fillcolor=cyan]
+	"ukr.net" -> "ns2.fwdcdn.net"
+	"mxs.ukr.net" [shape=box, style=filled, fillcolor=plum1]
+	"ukr.net" -> "mxs.ukr.net"
+	"212.42.75.251" [shape=box, style=filled, fillcolor=plum]
+	"ukr.net" -> "212.42.75.251"
+	"54.192.231.60" [shape=box, style=filled, fillcolor=green]
+	"olx.ua" -> "54.192.231.60"
+	"54.192.231.100" [shape=box, style=filled, fillcolor=green]
+	"olx.ua" -> "54.192.231.100"
+	"54.192.231.65" [shape=box, style=filled, fillcolor=green]
+	"olx.ua" -> "54.192.231.65"
+	"54.192.231.90" [shape=box, style=filled, fillcolor=green]
+	"olx.ua" -> "54.192.231.90"
+	"ns3.olx.ua" [shape=box, style=filled, fillcolor=cyan]
+	"olx.ua" -> "ns3.olx.ua"
+	"ns4.olx.ua" [shape=box, style=filled, fillcolor=cyan]
+	"olx.ua" -> "ns4.olx.ua"
+	"ns2.olx.ua" [shape=box, style=filled, fillcolor=cyan]
+	"olx.ua" -> "ns2.olx.ua"
+	"ns1.olx.ua" [shape=box, style=filled, fillcolor=cyan]
+	"olx.ua" -> "ns1.olx.ua"
+	"alt1.aspmx.l.google.com" [shape=box, style=filled, fillcolor=plum1]
+	"olx.ua" -> "alt1.aspmx.l.google.com"
+	"aspmx2.googlemail.com" [shape=box, style=filled, fillcolor=plum1]
+	"olx.ua" -> "aspmx2.googlemail.com"
+	"aspmx.l.google.com" [shape=box, style=filled, fillcolor=plum1]
+	"olx.ua" -> "aspmx.l.google.com"
+	"74.125.200.27" [shape=box, style=filled, fillcolor=plum]
+	"olx.ua" -> "74.125.200.27"
+	"74.125.200.26" [shape=box, style=filled, fillcolor=plum]
+	"olx.ua" -> "74.125.200.26"
+	"142.251.9.26" [shape=box, style=filled, fillcolor=plum]
+	"olx.ua" -> "142.251.9.26"
+}
