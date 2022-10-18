@@ -40,7 +40,6 @@ foreach ($domains as $domain) {
 
     array_push($reports, $element);
 };
-file_put_contents("report.json",json_encode($reports,JSON_PRETTY_PRINT));
 
 $str = "digraph G {" . PHP_EOL;
 foreach ($domains as $d) {
@@ -66,7 +65,13 @@ foreach ($reports as $r) {
     }
 }
 $str .= "}" . PHP_EOL;
-file_put_contents("diagram.dot", $str);
+
+$graphname = 'graph_'.date('YmdHis');
+$dotfilename = $graphname.'.dot';
+file_put_contents($dotfilename, $str);
+
+$pngfilename = $graphname.'.png';
+exec("fdp -Tpng $dotfilename -o $pngfilename");
 echo ("OK.".PHP_EOL);
 
 ?>
